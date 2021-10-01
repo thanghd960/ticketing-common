@@ -1,5 +1,5 @@
 {
-  "name": "@sgtickets/common",
+  "name": "@sgtickets-thanghd/common",
   "version": "1.0.2",
   "description": "",
   "main": "./build/index.js",
@@ -10,7 +10,8 @@
   "dependencies": {},
   "devDependencies": {
     "del-cli": "^4.0.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "scripts": {
     "clean": "del ./build/*",
